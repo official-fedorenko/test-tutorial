@@ -5,6 +5,7 @@
 let title = document.getElementById("title"); // По ID
 let button = document.querySelector(".btn"); // По селектору
 let items = document.querySelectorAll(".item"); // Все элементы по селектору
+let querly = document.querySelector('[data-js-slider]');
 ```
 📌 `querySelector()` универсальный метод, а `querySelectorAll()` возвращает **список элементов**.
 
